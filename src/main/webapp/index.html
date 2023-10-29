@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Phones :)</title>
+</head>
+<body>
+	<form action = "addItemServlet" method="post">
+	Model: <input type ="text" name = "model">
+	Operating system: <input type = "text" name = "os">
+	<input type = "submit" value="Add phone">
+	</form> <br />
+	
+	<form action = "deleteItemServlet" method="post">
+	Model: <input type ="text" name = "model">
+	Operating system: <input type = "text" name = "os">
+	<input type = "submit" value="Delete phone">
+	</form> <br />
+	
+	<form action = "editItemServlet" method="post">
+	Phone ID: <input type ="text" name = "id">
+	Model: <input type ="text" name = "model">
+	Operating system: <input type = "text" name = "os">
+	<input type = "submit" value="Edit phone">
+	</form> <br />
+	
+	<form action = "viewAllItemsServlet" method="GET">
+	<button type="submit">View all phones!!</button>
+	</form>
+</body>
+</html>
